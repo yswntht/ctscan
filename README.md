@@ -26,11 +26,12 @@ The following are the items we are making available for public release:
                 
 
 2. **Sakura-X FPGA (Baseline)**  
-    1. [✔️] We are releasing the bitstream for the Sakura-X board for Rocket CPU. We are also releasing the software for AES S-box protected and unprotected implementations.  
-    2. [🔜] Refer to the "Programming FPGA" section.  
-    3. We use 'Rocket32b' available in the list of default configurations. For different configurations, users are expected to port the Chisel code base onto thier side-channel FPGA platform (e.g. Sakura-X or Chipwhisperer) and modify the [Chisel generator configurations](https://github.com/eugene-tarassov/vivado-risc-v) themselves.  
-    4. [🔜] For software other than AES S-box, refer to the RISC-V GCC compiler support and follow the "Programming FPGA" section.  
-    5. [🔜] Refer to the correlation analysis script for the attack description.  
+    1. [✔️] We are releasing the bitstream for the Sakura-X board for Rocket CPU.
+    2. [🔜] We are also releasing the software for AES S-box protected and unprotected implementations.  
+    3. [🔜] Refer to the "Programming FPGA" section.  
+    4. We use 'Rocket32b' available in the list of default configurations. For different configurations, users are expected to port the Chisel code base onto thier side-channel FPGA platform (e.g. Sakura-X or Chipwhisperer) and modify the [Chisel generator configurations](https://github.com/eugene-tarassov/vivado-risc-v) themselves.  
+    5. [🔜] For software other than AES S-box, refer to the RISC-V GCC compiler support and follow the "Programming FPGA" section.  
+    6. [🔜] Refer to the correlation analysis script for the attack description.  
 
 3. **SiFive-FE310 (Golden reference)**  
     1. [🔜] Refer to the [Lofive website](https://github.com/mwelling/lofive) for details of software toolchain setup, and various other dependencies to get started on 'hello world' program. In our evaluations, we use Lofive-R1 board with SiFive Freedom E310 microcontroller.  
